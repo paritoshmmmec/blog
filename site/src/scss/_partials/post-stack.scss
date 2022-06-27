@@ -1,0 +1,651 @@
+
+.nulango-projects {
+  font-size: 27px; 
+  font-weight: 700;
+  font-family: -apple-system, 'Segoe UI', 'Open Sans', Roboto, sans-serif;
+}
+@media (min-width: 800px) {
+  .l-post-stack {
+    --l-stack-flex-basis: calc(50% - #{$BASE_UNIT / 2});
+  }
+  .main-projects {
+    position: relative;
+    bottom: 1px;
+    width: max-content;
+    padding: 15px 0 0 15px;
+    margin-right: auto;
+    border: 2px solid #d3d3d3;
+    border-radius: 4px;
+    width: 407px;
+  }
+  
+  .post-section {
+    border: 2px solid #d3d3d3;
+    padding: 15px 0 0 0;
+    border-radius: 4px;
+    margin-bottom: 51px;
+    padding-left: 15px;
+    width: 407px;
+}
+  .post-grid {
+    display: grid;
+    grid-template-columns: 381px 350px;
+    grid-row-gap: 10px;
+    width: 1100px;
+    grid-column-gap: 99px;
+    max-width: max-content;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 20px;
+    position: relative;
+    top: 34px;
+    left: 57px;
+    margin-bottom: 0;
+  }
+}
+.intro-two {
+  margin: auto;
+  width: max-content;
+  position: relative;
+  top: 25px;
+}
+.h2-hire {
+  margin-top: 15px;
+  font-size: 30px;
+  text-align: center;
+}
+.hire-p {
+  font-size: 19px;
+  padding: 0px;
+}
+.specialties {
+  font-size: 27px;
+  text-decoration: none;
+}
+#heading-my-specialties-include\: > a > svg {
+  display: none;
+}
+.hire-me {
+  text-decoration: none;
+  border: 1px solid black;
+  padding: 5px 7px;
+  border-radius: 4px;
+  margin-right: 24px;
+  font-size: 24px;
+}
+.hire-me:hover {
+  border: 2px solid black;
+  margin-right: 22px;
+}
+.say-hello {
+  text-decoration: none;
+  border: 1px solid black;
+  padding: 5px 7px;
+  border-radius: 4px;
+  font-size: 24px;
+}
+.say-hello:hover {
+  border: 2px solid black;
+  margin-left: -2px;
+}
+.l-post-stack {
+  margin-top: 0;
+  width: 856px;
+  max-width: max-content;
+  flex-wrap: wrap;
+}
+.l-post-stack > * {
+  margin-top: 3rem;
+  flex-basis: var(--l-stack-flex-basis, 100%);
+  flex-shrink: 0;
+}
+
+.post-stack-item {
+  list-style: none;
+  margin: 0px 0 0px;
+  position: relative;
+  top: 15px;
+}
+
+.post-stack-item * + * {
+  margin-top: -0.25rem;
+}
+.see-posts {
+  padding: 6px 11px;
+  background: #fff;
+  border-radius: 4px;
+  font-size: 18px;
+  text-decoration: none;
+  margin: 14px 5px 6px 43px;
+  font-weight: 400;
+  position: relative;
+  bottom: 2px;
+  background: #f6f8fb;
+}
+.see-posts:hover {
+  border: 1px solid black;
+  cursor: pointer;
+  color: black;
+  position: relative;
+  right: 1px;
+}
+.tech-wrapper {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 20px;
+  width: 565px;
+  max-width: 95%;
+  margin-right: auto;
+  margin-left: auto;
+}
+#tech-articles {
+  font-weight: 700;
+}
+.topic-btn {
+  border-radius: 9px;
+  padding: 3px 10px;
+  margin-right: 0px;
+  margin-bottom: 1px;
+  margin-top: 1px;
+  margin-left: 1px;
+  font-size: 19px;
+  text-decoration: none;
+  border: 2px solid gray;
+  background-color: #fff;
+  font-weight: 400;
+}
+#health-articles {
+  font-weight: 700;
+}
+.topics .topic-btn {
+  border-radius: 4px;
+  padding: 3px 10px;
+  margin-right: -5px;
+  margin-bottom: 1px;
+  margin-top: 1px;
+  margin-left: 1px;
+  font-size: 19px;
+  text-decoration: none;
+  border: 2px solid gray;
+  background-color: #fff;
+  font-weight: 400;
+}
+.tech-posts {
+  font-size: 20px;
+  padding-bottom: 10px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 562px;
+  max-width: 100%;
+  
+}
+
+.health-wrapper {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 20px;
+  width: 565px;
+  max-width: 95%;
+  margin-right: auto;
+  margin-left: auto;
+}
+.health-posts {
+  font-size: 20px;
+  padding-bottom: 1px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 10px;
+  width: 565px;
+  max-width: 100%;
+}
+
+.recent-posts {
+  margin: 37px 0px 0 0;
+  text-align: left;
+  margin-right: auto;
+  margin-left: -1px;
+  width: 565px !important;
+  font-family: -apple-system,'Segoe UI','Open Sans',Roboto,sans-serif;
+  max-width: 90%;
+  font-size: 27px;
+}
+.other-posts {
+  margin-bottom: 15px;
+  margin-right: auto;
+  margin-left: 0;
+  width: 565px;
+  max-width: 90%;
+  font-family: -apple-system, 'Segoe UI', 'Open Sans', Roboto, sans-serif;
+  font-size: 27px;
+}
+
+
+/*------- Projects Section --------*/
+  .projects-section {
+    margin-right: auto;
+    margin-left: auto;
+    width: 630px;
+    max-width: 95%;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.projects-section-inner {
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+}
+.projects-section-index {
+  background: #c9f3e0;
+  padding-top: 15px;
+  padding-bottom: 29px;
+  margin-bottom: -25px;
+}
+.projects-section-index > p {
+  font-size: 19px;
+  width: 500px;
+  max-width: 90%;
+  margin-top: 6px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.project1 {
+  margin-left: 0px;
+}
+.project2 {
+  margin-left: 0px;
+}
+.project3 {
+  margin-left: 0px;
+}
+.projectsBtn {
+  padding: 6px 11px;
+  background: white;
+  border-radius: 4px;
+  font-size: 17px;
+  border: 1px solid black;
+  margin-left: 0px;
+}
+.seeProjects {
+    border-bottom: none !important;
+}
+.projectsBtn:hover {
+  border: 1px solid #006ce5;
+  cursor: pointer;
+  color: #006ce5;
+}
+.latest-posts {
+  font-size: 32px;
+}
+
+.yellow-link.topics-btn {
+  position: relative;
+  top: 5px;
+}
+.topic-btn:hover {
+  background-color: rgb(244, 244, 244);
+}
+.topics-h2 {
+  margin-bottom: 26px;
+  text-align: left;
+  font-size: 32px;
+}
+.topics {
+  position: relative;
+  bottom: 15px;
+}
+.topics-section2 {
+  margin-top: 22px;
+}
+.topics-section {
+  position: relative;
+  top: 15px;
+}
+.topics2 {
+  position: relative;
+  top: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 565px;
+  max-width: 100%;
+}
+.p-under {
+  padding: 5px 0 10px 0;
+  color: #4e4e4e;
+  width: 369px;
+  max-width: 95%
+}
+.main-current-projects {
+  font-size: 32px;
+}
+.projects-main {
+  position: relative;
+  top: 15px;
+}
+
+/*------ Contact Section -------*/
+
+a.email-main {
+  font-size: 18px !important;
+}
+p.mail-text {
+  color: #4e4e4e;
+}
+.mail-text > a {
+  text-align: center;
+  margin-left: 0;
+  margin-top: 0;
+  font-size: 18px;
+  font-weight: 400;
+  color: #4e4e4e;
+  padding: 0;
+}
+.contact-section2 {
+position: relative;
+    top: 30px;
+}
+.contact-section {
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  width: 100vw;
+  margin-top: 7px;
+  margin-bottom: 3px;
+  position: relative;
+  background: #c9f3e0;
+  padding-top: 23px;
+  padding-bottom: 26px;
+  top: 23px;
+}
+
+.post-stack-date {
+  font-size: 17px;
+  font-style: italic;
+  color: #333;
+  text-align: center;
+}
+@media(max-width: 800px){
+  .l-post-stack{
+  max-width: 90%;
+  margin-right: auto;
+}
+topics2 {
+position: relative;
+display: flex;
+top: -1px;
+column-gap: 5px;
+margin-left: auto;
+margin-right: auto;
+width: 100%;
+overflow-x: scroll;
+max-width: 94%;
+}
+@media (min-width: 501px){
+.post-section {
+    border: 2px solid #d3d3d3;
+    padding: 15px 0 0 0;
+    border-radius: 4px;
+    margin-bottom: 26px;
+    padding-left: 15px;
+    width: 95%;
+}
+.topics-section2 {
+  margin-top: 20px;
+}
+.main-projects {
+  position: relative;
+  bottom: 1px;
+  width: max-content;
+  padding: 15px 0 0 15px;
+  margin-right: auto;
+  /* max-width: 100%; */
+  border: 2px solid #d3d3d3;
+  border-radius: 4px;
+  width: 407px;
+}
+.h2-hire {
+  margin-top: 30px;
+  font-size: 26px;
+  font-weight: 400;
+  text-align: center;
+}
+.specialties {
+  font-size: 27px;
+}
+.hire-me {
+  font-size: 19px;
+}
+.say-hello {
+  font-size: 19px;
+}
+@media(min-width: 501px) and (max-width: 800px){
+.post-grid {
+  display: grid;
+  grid-template-columns: 500px;
+  width: max-content;
+  max-width: 95%;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+  grid-row-gap: 30px;
+  top: 34px;
+  left: -3px;
+  padding-bottom: 52px;
+  margin-bottom: 0;
+}}
+.intro-two {
+  margin: auto;
+  width: max-content;
+  position: relative;
+  top: 0px;
+}
+.projects-section {
+  margin-right: auto;
+  margin-left: auto;
+  width: 630px;
+  max-width: 95%;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+.projects-section-inner {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 12px;
+  padding-bottom: 27px;
+  max-width: 90%;
+}
+.mail-text > a {
+  text-align: center;
+  margin-left: 0;
+  margin-top: 0;
+  font-size: 22px;
+  font-weight: 400;
+  color: #4e4e4e;
+  padding: 0;
+}
+.contact-section {
+  text-align: center;
+  margin-left: 0;
+  margin-top: 5px;
+  margin-bottom: -39px;
+  position: relative;
+  background: #c9f3e0;
+  padding-top: 15px;
+  padding-bottom: 17px;
+  top: 11px;
+}
+}
+@media(max-width: 500px){
+  .post-grid {
+    display: grid;
+    grid-template-columns: 300px;
+    width: 420px;
+    max-width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    top: 13px;
+    left: 0;
+    margin-bottom: 10px;
+}
+
+  .other-posts {
+    margin-bottom: 10px;
+    margin-right: auto;
+    margin-left: 10px;
+    width: 565px;
+    max-width: 100%;
+    font-family: -apple-system, 'Segoe UI', 'Open Sans', Roboto, sans-serif;
+    font-size: 27px;
+}
+
+  .tech-posts  {
+    font-size: 20px;
+    padding-bottom: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 562px;
+    max-width: 95%;
+    font-weight: 400;
+  }
+
+  .health-posts {
+    font-size: 20px;
+    padding-bottom: 1px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 10px;
+    width: 565px;
+    max-width: 95%;
+  }
+  .recent-posts {
+    margin: 25px 0 -11px 0;
+    text-align: left;
+    margin-right: auto;
+    margin-left: auto;
+    width: 562px;
+    max-width: 90% !important;
+    font-size: 27px;
+}
+  .topics2 {
+    position: relative;
+    display: flex;
+    top: -2px;
+    column-gap: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    overflow-x: scroll;
+    max-width: 94%;
+  }
+}
+  .main-projects {
+    position: relative;
+    width: 407px;
+    max-width: 95%;
+    margin-right: auto;
+    max-width: 100%;
+    padding-bottom: 15px;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    top: 19px;
+    z-index: 9;
+  }
+  .posts-section {
+    width: 95%;
+    max-width: 95%;
+  }
+  .projects-section {
+    margin-right: auto;
+    margin-left: auto;
+    width: 400px;
+    max-width: 90%;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+  .topic-btn {
+    border-radius: 9px;
+    padding: 2px 10px;
+    margin-right: 1px;
+    margin-bottom: 1px;
+    margin-top: 1px;
+    margin-left: 1px;
+    font-size: 19px;
+    text-decoration: none;
+    border: 2px solid gray;
+    background-color: #fff;
+    font-weight: 400;
+}
+  .desktopDiv {
+    display: none;
+  }
+  .topics-h2 {
+    margin-top: 20px;
+    margin-bottom: 26px;
+    text-align: left;
+    font-size: 32px;
+}
+#tools-btn {
+  position: relative;
+  top: 0px;
+}
+#lessons-btn {
+  position: relative;
+}
+#fiction-btn {
+  position: relative;
+}
+.latest-posts {
+    font-size: 30px;
+}
+.see-posts {
+    padding: 6px 11px;
+    background: #fff;
+    border-radius: 4px;
+    font-size: 18px;
+    text-decoration: none;
+    margin: 1px 3px 6px 12px;
+    font-weight: 400;
+    position: relative;
+    bottom: 2px;
+    background: #f6f8fb;
+}}
+@media(min-width: 400px){
+  #tools-btn2 {
+    position: relative;
+    top: 0px;
+  }
+}
+@media(max-width: 420px){
+  #tools-btn2 {
+    position: relative;
+    top: 0px;
+  }
+  .topics2 {
+    position: relative;
+    display: flex;
+    top: -2px;
+    column-gap: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    overflow-x: scroll;
+    max-width: 94%;
+}
+  .contact-section2 {
+    position: relative;
+    top: 15px;
+}
+}
+@media (max-width: 335px){
+  #tools-btn {
+    position: relative;
+    top: 0px;
+  }
+  #lessons-btn {
+    position: relative;
+  }
+  #fiction-btn {
+    position: relative;
+  }
+}

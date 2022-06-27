@@ -1,0 +1,24 @@
+.l-site-title {
+  flex-basis: 100%;
+}
+.site-title {
+  font-size: 27px;
+  width: max-content;
+  display: inline-block;
+  line-height: 1.625rem;
+  font-family: Garamond, georgia, ui-serif;
+  text-align: left;
+  margin-left: 0px;
+  font-weight: 700;
+  
+}
+@media(max-width: 800px){
+.site-title {
+  font-size: 27px;
+  width: 100%;
+  display: inline-block;
+  line-height: 1.625rem;
+  font-family: Garamond, georgia, sans-serif;
+  text-align: center;
+  margin: 0;
+}}

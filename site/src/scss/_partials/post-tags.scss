@@ -1,0 +1,37 @@
+.l-post-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-right: auto;
+  margin-left: auto;
+  width: max-content;
+}
+footer > h2 {
+  text-align: center !important;
+  margin-right: 25px !important;
+}
+.l-post-tags {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.post-tag {
+  display: inline-block;
+  padding: 5px 10px;
+  font-size: 20px;
+  border-radius: 7px;
+  position: relative;
+  right: 7px;
+  background: white;
+  border: solid 2px gray;
+  text-decoration: none;
+  margin-right: 5px;
+  text-transform: capitalize;
+  margin-bottom: 10px;
+}
+
+.post-tag:hover,
+.post-tag:focus {
+  background: #f4f4f4;
+}
